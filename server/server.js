@@ -27,7 +27,8 @@ const app = express();
 app.use(helmet());
 app.use("/api/bookings/verify", express.raw({ type: "application/json" }));
 app.use(express.json());
-app.use(cors());
+const cors = require("cors");
+app.use(cors({ origin: "https://your-frontend-url.onrender.com" }));
 connectDB();
 
 // rate limit middleware
