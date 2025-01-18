@@ -1,4 +1,4 @@
-# book_my_show# BookMyShow-like App
+# BookMyShow-like App
 
 ## Overview
 This application is inspired by the functionality of BookMyShow, providing users with a platform to browse movies, book tickets, and manage shows and theatres. It is divided into three main roles: **Admin**, **Partner**, and **User**.
